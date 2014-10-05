@@ -11,7 +11,7 @@ describe('An Elevator in a Home', function () {
     expect(doesElevatorExist).to.a.instanceOf(Function);
 
   });
-
+//pass
   describe('should take a passenger from the first floor', function () {
     it('to the top floor', function () {
       var ride = elevator.goto(0, '3');
@@ -27,7 +27,7 @@ describe('An Elevator in a Home', function () {
       expect(ride).to.not.be.a('string');
     });
   });
-
+//pass
   describe('should take a passenger from the top floor', function () {
     it('to the first floor', function () {
       var ride = elevator.goto(3, '0');
